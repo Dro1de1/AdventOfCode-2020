@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch Program",
+            "name": "day02",
             "type": "pwa-node",
             "request": "launch",
             "skipFiles": [
@@ -13,6 +13,16 @@
             ],
             "program": "${workspaceFolder}/day02/validate.js",
             "cwd": "${workspaceFolder}/day02/"
+        },
+        {
+            "name": "day03",
+            "type": "pwa-node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day03/drive.js",
+            "cwd": "${workspaceFolder}/day03/"
         }
     ]
 }
