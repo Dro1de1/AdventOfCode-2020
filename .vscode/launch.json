@@ -23,6 +23,16 @@
             ],
             "program": "${workspaceFolder}/day03/drive.js",
             "cwd": "${workspaceFolder}/day03/"
+        },
+        {
+            "name": "day04",
+            "type": "pwa-node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day04/scanner.js",
+            "cwd": "${workspaceFolder}/day04/"
         }
     ]
 }
