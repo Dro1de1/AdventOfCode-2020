@@ -33,6 +33,17 @@
             ],
             "program": "${workspaceFolder}/day04/scanner.js",
             "cwd": "${workspaceFolder}/day04/"
+        },
+        {
+            "name": "day05",
+            "type": "pwa-node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day05/seatfinder.js",
+            "cwd": "${workspaceFolder}/day05/"
         }
     ]
+
 }
