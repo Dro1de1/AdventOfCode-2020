@@ -43,6 +43,16 @@
             ],
             "program": "${workspaceFolder}/day05/seatfinder.js",
             "cwd": "${workspaceFolder}/day05/"
+        },
+        {
+            "name": "day06",
+            "type": "pwa-node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day06/customs.js",
+            "cwd": "${workspaceFolder}/day06/"
         }
     ]
 
