@@ -53,6 +53,16 @@
             ],
             "program": "${workspaceFolder}/day06/customs.js",
             "cwd": "${workspaceFolder}/day06/"
+        },
+        {
+            "name": "day07",
+            "type": "pwa-node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day07/enforce.js",
+            "cwd": "${workspaceFolder}/day07/"
         }
     ]
 
