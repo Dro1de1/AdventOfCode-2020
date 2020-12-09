@@ -73,6 +73,16 @@
             ],
             "program": "${workspaceFolder}/day08/boot.js",
             "cwd": "${workspaceFolder}/day08/"
+        },
+        {
+            "name": "day09",
+            "type": "pwa-node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day09/serial.js",
+            "cwd": "${workspaceFolder}/day09/"
         }
     ]
 
