@@ -93,6 +93,16 @@
             ],
             "program": "${workspaceFolder}/day10/joltage.js",
             "cwd": "${workspaceFolder}/day10/"
+        },
+        {
+            "name": "day11",
+            "type": "pwa-node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day11/seater.js",
+            "cwd": "${workspaceFolder}/day11/"
         }
     ]
 
