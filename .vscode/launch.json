@@ -113,7 +113,17 @@
             ],
             "program": "${workspaceFolder}/day12/safety.js",
             "cwd": "${workspaceFolder}/day12/"
-        }2
+        },
+        {
+            "name": "day13",
+            "type": "pwa-node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day13/depart.js",
+            "cwd": "${workspaceFolder}/day13/"
+        }
     ]
 
 }
