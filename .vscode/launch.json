@@ -123,6 +123,16 @@
             ],
             "program": "${workspaceFolder}/day13/depart.js",
             "cwd": "${workspaceFolder}/day13/"
+        },
+        {
+            "name": "day14",
+            "type": "pwa-node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day14/docking.js",
+            "cwd": "${workspaceFolder}/day14/"
         }
     ]
 
