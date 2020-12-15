@@ -133,6 +133,16 @@
             ],
             "program": "${workspaceFolder}/day14/docking.js",
             "cwd": "${workspaceFolder}/day14/"
+        },
+        {
+            "name": "day15",
+            "type": "pwa-node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day15/game.js",
+            "cwd": "${workspaceFolder}/day15/"
         }
     ]
 
